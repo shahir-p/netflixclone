@@ -21,7 +21,7 @@ const Banner = ({fetchURL}) => {
   useEffect(()=>{
     setInterval(()=>{
       fetchData()
-    },6000)
+    },5000)
   // fetchData()
 
   },[])
