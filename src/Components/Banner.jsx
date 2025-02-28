@@ -35,7 +35,7 @@ const Banner = ({fetchURL}) => {
         
           {/* <h2 style={{color:"green"}}>Banner</h2> */}
           <div style={{backgroundImage: `url(${imgbase_url}${movies?.backdrop_path})`, height:"600px", backgroundSize:"cover", backgroundPosition:"center", borderRadius:"10px", transition:"3s ease"}}>
-          <img style={{width:"250px", paddingLeft:"30px"}} src="./src/assets/netflix.jpg" alt="" />
+          <img style={{width:"200px", paddingLeft:"30px"}} src="https://cdn.iconscout.com/icon/free/png-512/free-netflix-icon-download-in-svg-png-gif-file-formats--logo-brand-world-logos-vol-1-pack-icons-282224.png?f=webp&w=512" alt="" />
          <div style={{paddingTop:"180px", paddingLeft:"40px"}}>
           <h1 style={{color:"white", }}>{`${movies?.title}`}</h1>
           <button className='btn btn-danger' style={{marginLeft:"10px"}}>Play <i className="fa-solid fa-play"></i></button>
